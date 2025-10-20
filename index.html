@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعوة للمشروع</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="slid_1" id="slid_1">
+            <div class="frist">
+                <h1>انضم لفريقنا</h1>
+            </div>
+            <div class="box">
+                <h1>مشروع تخرج السنة الثانية</h1>
+                <p>نبحث عن <span>أصحاب الخبرة والشغف والطموح</span> للانضمام لفريقنا في تنفيذ مشروع تخرج السنة الثانية
+                    إذا كنت تريد تطوير مهاراتك والعمل على مشروع حقيقي مع فريق متعاون، فهذه فرصتك! نبحث عن طلاب السنة
+                    الثانية في قسم تكنولوجيا المعلومات</p>
+                <div class="icon">
+                    <a id="but_1" href="#">التالي</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="slid_2" id="slid_2">
+            <div class="titel">
+                <h1>بياناتك الشخصيه</h1>
+            </div>
+            <div class="data">
+                <form class="checkout-form" id="checkout-form" 
+                      action="https://formsubmit.co/dolla2924@gmail.com" method="POST"> 
+                    
+                    <input type="hidden" name="_next" value="[رابط صفحة شكر بعد التسجيل]">
+                    <input type="hidden" name="_subject" value="طلب انضمام جديد للمشروع">
+                    <input type="hidden" name="_cc" value="dolla2924@gmail.com">
+
+                    <div class="data_input">
+                        <label for="name">الاسم بالكامل</label>
+                        <input type="text" name="الاسم" id="name" required placeholder="أحمد محمد">
+                    </div>
+                    <div class="data_input">
+                        <label for="data_id">الرقم الأكاديمي</label>
+                        <input type="number" name="الرقم_الأكاديمي" id="data_id" required placeholder="2420000">
+                    </div>
+                    <div class="data_input">
+                        <label for="data-tel">رقم الواتساب</label>
+                        <input type="tel" name="رقم_الواتساب" id="data-tel" required placeholder="01000000000">
+                    </div>
+                    <div class="data_input">
+                        <label for="data_email">البريد الإلكتروني</label>
+                        <input type="email" name="البريد_الإلكتروني" id="data_email" required placeholder="ex@gmail.com">
+                    </div>
+                    
+                    <div class="data_input">
+                        <label for="role">اذكر دورك في فريق السنة الماضية</label>
+                        <textarea name="الدور_السنة_الماضية" id="role" rows="3" required ></textarea>
+                    </div>
+
+                    <div class="data_input">
+                        <label for="field">أي المجال الذي أنت بتتميز فيه</label>
+                        <textarea name="مجال_التميز" id="field" rows="3" required ></textarea>
+                    </div>
+
+                    <div class="data_input">
+                        <label for="passion">أي شغفك وطموحك وإضافتك لتيم معانا</label>
+                        <textarea name="الشغف_والإضافة" id="passion" rows="4" required ></textarea>
+                    </div>
+                    
+                    <button type="submit" id="but_2">تسجيل</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
